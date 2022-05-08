@@ -1,4 +1,4 @@
-# (C) supun-maduraga my best friend for his project on call-music-plus
+
 
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, Chat, CallbackQuery
@@ -39,7 +39,7 @@ async def cbstart(_, query: CallbackQuery):
                         "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],[
                     InlineKeyboardButton(
-                        "🧪 Source Code 🧪", url="https://github.com/QuennArzoo/VCPlayBot"
+                        "🧪 Source Code 🧪", url="#"
                     )
                 ]
             ]
